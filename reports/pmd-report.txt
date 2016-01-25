@@ -1,0 +1,760 @@
+src/DatabaseConnection.java:3:	Avoid unused imports such as 'java.sql.ResultSet'
+src/DatabaseConnection.java:4:	Avoid unused imports such as 'java.sql.Statement'
+src/DatabaseConnection.java:8:	All classes and interfaces must belong to a named package
+src/DatabaseConnection.java:8:	headerCommentRequirement Required
+src/DatabaseConnection.java:10:	Avoid using redundant field initializer for 'conn'
+src/DatabaseConnection.java:10:	Use explicit scoping instead of the default package private level
+src/DatabaseConnection.java:10:	fieldCommentRequirement Required
+src/DatabaseConnection.java:11:	publicMethodCommentRequirement Required
+src/DatabaseConnection.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/DatabaseConnection.java:15:	Local variable 'connectionURL' could be declared final
+src/DatabaseConnection.java:16:	Local variable 'username' could be declared final
+src/DatabaseConnection.java:17:	Local variable 'password' could be declared final
+src/DatabaseConnection.java:18:	Local variable 'conn' could be declared final
+src/DatabaseConnection.java:22:	A method should have only one exit point, and that should be the last statement in the method
+src/DatabaseConnection.java:23:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:1:	Possible God class (WMC=75, ATFD=269, TCC=0.0)
+src/Login.java:5:	Avoid unused imports such as 'java.sql.DriverManager'
+src/Login.java:7:	Avoid unused imports such as 'java.sql.Statement'
+src/Login.java:19:	Avoid unused imports such as 'java.awt.Window.Type'
+src/Login.java:20:	Avoid unused imports such as 'java.awt.FlowLayout'
+src/Login.java:22:	Avoid unused imports such as 'java.awt.Color'
+src/Login.java:24:	Avoid unused imports such as 'javax.swing.JTextArea'
+src/Login.java:25:	Avoid unused imports such as 'javax.swing.JEditorPane'
+src/Login.java:26:	Avoid unused imports such as 'javax.swing.JTextPane'
+src/Login.java:30:	All classes and interfaces must belong to a named package
+src/Login.java:30:	The class 'Login' has a Cyclomatic Complexity of 28 (Highest = 80).
+src/Login.java:30:	The class 'Login' has a Modified Cyclomatic Complexity of 23 (Highest = 63).
+src/Login.java:30:	The class 'Login' has a Standard Cyclomatic Complexity of 23 (Highest = 63).
+src/Login.java:30:	This class has too many methods, consider refactoring it.
+src/Login.java:30:	Too many fields
+src/Login.java:30:	headerCommentRequirement Required
+src/Login.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:32:	fieldCommentRequirement Required
+src/Login.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:34:	Use explicit scoping instead of the default package private level
+src/Login.java:34:	fieldCommentRequirement Required
+src/Login.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:35:	Use explicit scoping instead of the default package private level
+src/Login.java:35:	fieldCommentRequirement Required
+src/Login.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:36:	Use explicit scoping instead of the default package private level
+src/Login.java:36:	fieldCommentRequirement Required
+src/Login.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:37:	Use explicit scoping instead of the default package private level
+src/Login.java:37:	fieldCommentRequirement Required
+src/Login.java:41:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/Login.java:41:	Parameter 'args' is not assigned and could be declared final
+src/Login.java:42:	To be compliant to J2EE, a webapp should not use any thread.
+src/Login.java:43:	publicMethodCommentRequirement Required
+src/Login.java:45:	Local variable 'window' could be declared final
+src/Login.java:46:	Potential violation of Law of Demeter (static property access)
+src/Login.java:47:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:48:	Avoid printStackTrace(); use a logger call instead.
+src/Login.java:53:	Avoid using redundant field initializer for 'conn'
+src/Login.java:53:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:53:	Use explicit scoping instead of the default package private level
+src/Login.java:53:	fieldCommentRequirement Required
+src/Login.java:54:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:54:	fieldCommentRequirement Required
+src/Login.java:55:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:55:	Perhaps 'label' could be replaced by a local variable.
+src/Login.java:55:	fieldCommentRequirement Required
+src/Login.java:56:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:56:	fieldCommentRequirement Required
+src/Login.java:57:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:57:	Perhaps 'lblTestPassword' could be replaced by a local variable.
+src/Login.java:57:	fieldCommentRequirement Required
+src/Login.java:58:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'WELCOME_PANEL' is not final.
+src/Login.java:58:	The field name indicates a constant but its modifiers do not
+src/Login.java:58:	Variables should start with a lowercase character, 'WELCOME_PANEL' starts with uppercase character.
+src/Login.java:58:	fieldCommentRequirement Required
+src/Login.java:59:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:59:	Perhaps 'lblHello' could be replaced by a local variable.
+src/Login.java:59:	fieldCommentRequirement Required
+src/Login.java:60:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'welcome_nameField' is not final.
+src/Login.java:60:	fieldCommentRequirement Required
+src/Login.java:61:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:61:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:61:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_1' is not final.
+src/Login.java:61:	Perhaps 'label_1' could be replaced by a local variable.
+src/Login.java:61:	fieldCommentRequirement Required
+src/Login.java:62:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:62:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'мео_пяоиом_BUTTON' is not final.
+src/Login.java:62:	Perhaps 'мео_пяоиом_BUTTON' could be replaced by a local variable.
+src/Login.java:62:	The field name indicates a constant but its modifiers do not
+src/Login.java:62:	Variables should start with a lowercase character, 'мео_пяоиом_BUTTON' starts with uppercase character.
+src/Login.java:62:	fieldCommentRequirement Required
+src/Login.java:63:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:63:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:63:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'апохела_BUTTON' is not final.
+src/Login.java:63:	Perhaps 'апохела_BUTTON' could be replaced by a local variable.
+src/Login.java:63:	The field name indicates a constant but its modifiers do not
+src/Login.java:63:	Variables should start with a lowercase character, 'апохела_BUTTON' starts with uppercase character.
+src/Login.java:63:	fieldCommentRequirement Required
+src/Login.java:64:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'епен_апох_BUTTON' is not final.
+src/Login.java:64:	Perhaps 'епен_апох_BUTTON' could be replaced by a local variable.
+src/Login.java:64:	The field name indicates a constant but its modifiers do not
+src/Login.java:64:	Variables should start with a lowercase character, 'епен_апох_BUTTON' starts with uppercase character.
+src/Login.java:64:	fieldCommentRequirement Required
+src/Login.java:65:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:65:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:65:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'амафгтгсг_BUTTON' is not final.
+src/Login.java:65:	Perhaps 'амафгтгсг_BUTTON' could be replaced by a local variable.
+src/Login.java:65:	The field name indicates a constant but its modifiers do not
+src/Login.java:65:	Variables should start with a lowercase character, 'амафгтгсг_BUTTON' starts with uppercase character.
+src/Login.java:65:	fieldCommentRequirement Required
+src/Login.java:66:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:66:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:66:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'статистийа_BUTTON' is not final.
+src/Login.java:66:	Perhaps 'статистийа_BUTTON' could be replaced by a local variable.
+src/Login.java:66:	The field name indicates a constant but its modifiers do not
+src/Login.java:66:	Variables should start with a lowercase character, 'статистийа_BUTTON' starts with uppercase character.
+src/Login.java:66:	fieldCommentRequirement Required
+src/Login.java:67:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:67:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:67:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_3' is not final.
+src/Login.java:67:	Perhaps 'label_3' could be replaced by a local variable.
+src/Login.java:67:	fieldCommentRequirement Required
+src/Login.java:68:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_4' is not final.
+src/Login.java:68:	Perhaps 'label_4' could be replaced by a local variable.
+src/Login.java:68:	fieldCommentRequirement Required
+src/Login.java:69:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:69:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:69:	Variables should start with a lowercase character, 'ProductNameField' starts with uppercase character.
+src/Login.java:69:	fieldCommentRequirement Required
+src/Login.java:70:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:70:	Variables should start with a lowercase character, 'ProductCodeField' starts with uppercase character.
+src/Login.java:70:	fieldCommentRequirement Required
+src/Login.java:71:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:71:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:71:	Perhaps 'btnHome' could be replaced by a local variable.
+src/Login.java:71:	fieldCommentRequirement Required
+src/Login.java:72:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:72:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'APOTHEMA_PANEL' is not final.
+src/Login.java:72:	The field name indicates a constant but its modifiers do not
+src/Login.java:72:	Variables should start with a lowercase character, 'APOTHEMA_PANEL' starts with uppercase character.
+src/Login.java:72:	fieldCommentRequirement Required
+src/Login.java:73:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:73:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:73:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_5' is not final.
+src/Login.java:73:	Perhaps 'label_5' could be replaced by a local variable.
+src/Login.java:73:	fieldCommentRequirement Required
+src/Login.java:74:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:74:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:74:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_6' is not final.
+src/Login.java:74:	Perhaps 'label_6' could be replaced by a local variable.
+src/Login.java:74:	fieldCommentRequirement Required
+src/Login.java:75:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:75:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:75:	Variables should start with a lowercase character, 'NameProduct1Field' starts with uppercase character.
+src/Login.java:75:	fieldCommentRequirement Required
+src/Login.java:76:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'button_1' is not final.
+src/Login.java:76:	Perhaps 'button_1' could be replaced by a local variable.
+src/Login.java:76:	fieldCommentRequirement Required
+src/Login.java:77:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:77:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:77:	Variables should start with a lowercase character, 'YpoloipotextField' starts with uppercase character.
+src/Login.java:77:	fieldCommentRequirement Required
+src/Login.java:78:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:78:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'EPEKS_APOTH_PANEL' is not final.
+src/Login.java:78:	The field name indicates a constant but its modifiers do not
+src/Login.java:78:	Variables should start with a lowercase character, 'EPEKS_APOTH_PANEL' starts with uppercase character.
+src/Login.java:78:	fieldCommentRequirement Required
+src/Login.java:79:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:79:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:79:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_7' is not final.
+src/Login.java:79:	Perhaps 'label_7' could be replaced by a local variable.
+src/Login.java:79:	fieldCommentRequirement Required
+src/Login.java:80:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_8' is not final.
+src/Login.java:80:	Perhaps 'label_8' could be replaced by a local variable.
+src/Login.java:80:	fieldCommentRequirement Required
+src/Login.java:81:	Avoid excessively long variable names like NameProducttextField
+src/Login.java:81:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:81:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:81:	Variables should start with a lowercase character, 'NameProducttextField' starts with uppercase character.
+src/Login.java:81:	fieldCommentRequirement Required
+src/Login.java:82:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_9' is not final.
+src/Login.java:82:	Perhaps 'label_9' could be replaced by a local variable.
+src/Login.java:82:	fieldCommentRequirement Required
+src/Login.java:83:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:83:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:83:	Variables should start with a lowercase character, 'PosotitatextField' starts with uppercase character.
+src/Login.java:83:	fieldCommentRequirement Required
+src/Login.java:84:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:84:	Perhaps 'AgoraButton' could be replaced by a local variable.
+src/Login.java:84:	Variables should start with a lowercase character, 'AgoraButton' starts with uppercase character.
+src/Login.java:84:	fieldCommentRequirement Required
+src/Login.java:85:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:85:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:85:	Perhaps 'PolisiButton' could be replaced by a local variable.
+src/Login.java:85:	Variables should start with a lowercase character, 'PolisiButton' starts with uppercase character.
+src/Login.java:85:	fieldCommentRequirement Required
+src/Login.java:86:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:86:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btnHome_2' is not final.
+src/Login.java:86:	Perhaps 'btnHome_2' could be replaced by a local variable.
+src/Login.java:86:	fieldCommentRequirement Required
+src/Login.java:87:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:87:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:87:	Perhaps 'btnChangeUser' could be replaced by a local variable.
+src/Login.java:87:	fieldCommentRequirement Required
+src/Login.java:88:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:88:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:88:	Perhaps 'btnClear' could be replaced by a local variable.
+src/Login.java:88:	fieldCommentRequirement Required
+src/Login.java:89:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:89:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:89:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ANAZITISI_PANEL' is not final.
+src/Login.java:89:	The field name indicates a constant but its modifiers do not
+src/Login.java:89:	Variables should start with a lowercase character, 'ANAZITISI_PANEL' starts with uppercase character.
+src/Login.java:89:	fieldCommentRequirement Required
+src/Login.java:90:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:90:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:90:	fieldCommentRequirement Required
+src/Login.java:91:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:91:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:91:	Perhaps 'scrollPane' could be replaced by a local variable.
+src/Login.java:91:	fieldCommentRequirement Required
+src/Login.java:92:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:92:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:92:	fieldCommentRequirement Required
+src/Login.java:93:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:93:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:93:	Perhaps 'btnNewButton' could be replaced by a local variable.
+src/Login.java:93:	fieldCommentRequirement Required
+src/Login.java:94:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:94:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:94:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'STATISTIKA_PANEL' is not final.
+src/Login.java:94:	The field name indicates a constant but its modifiers do not
+src/Login.java:94:	Variables should start with a lowercase character, 'STATISTIKA_PANEL' starts with uppercase character.
+src/Login.java:94:	fieldCommentRequirement Required
+src/Login.java:95:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:95:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:95:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_10' is not final.
+src/Login.java:95:	Perhaps 'label_10' could be replaced by a local variable.
+src/Login.java:95:	fieldCommentRequirement Required
+src/Login.java:96:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:96:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:96:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_11' is not final.
+src/Login.java:96:	Perhaps 'label_11' could be replaced by a local variable.
+src/Login.java:96:	fieldCommentRequirement Required
+src/Login.java:97:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:97:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:97:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_12' is not final.
+src/Login.java:97:	Perhaps 'label_12' could be replaced by a local variable.
+src/Login.java:97:	fieldCommentRequirement Required
+src/Login.java:98:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:98:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:98:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/Login.java:98:	fieldCommentRequirement Required
+src/Login.java:99:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:99:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:99:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_2' is not final.
+src/Login.java:99:	fieldCommentRequirement Required
+src/Login.java:100:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:100:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:100:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'button_2' is not final.
+src/Login.java:100:	Perhaps 'button_2' could be replaced by a local variable.
+src/Login.java:100:	fieldCommentRequirement Required
+src/Login.java:101:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:101:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'button_3' is not final.
+src/Login.java:101:	Perhaps 'button_3' could be replaced by a local variable.
+src/Login.java:101:	fieldCommentRequirement Required
+src/Login.java:102:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:102:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:102:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_13' is not final.
+src/Login.java:102:	Perhaps 'label_13' could be replaced by a local variable.
+src/Login.java:102:	fieldCommentRequirement Required
+src/Login.java:103:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:103:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:103:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_3' is not final.
+src/Login.java:103:	fieldCommentRequirement Required
+src/Login.java:104:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:104:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'table_1' is not final.
+src/Login.java:104:	fieldCommentRequirement Required
+src/Login.java:105:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:105:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:105:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'button_4' is not final.
+src/Login.java:105:	Perhaps 'button_4' could be replaced by a local variable.
+src/Login.java:105:	fieldCommentRequirement Required
+src/Login.java:106:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:106:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:106:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_14' is not final.
+src/Login.java:106:	Perhaps 'label_14' could be replaced by a local variable.
+src/Login.java:106:	fieldCommentRequirement Required
+src/Login.java:107:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Login.java:107:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Login.java:107:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_4' is not final.
+src/Login.java:107:	fieldCommentRequirement Required
+src/Login.java:125:	Avoid really long methods.
+src/Login.java:125:	The method 'initialize' has a Cyclomatic Complexity of 80.
+src/Login.java:125:	The method 'initialize' has a Modified Cyclomatic Complexity of 63.
+src/Login.java:125:	The method 'initialize' has a Standard Cyclomatic Complexity of 63.
+src/Login.java:125:	The method initialize() has an NCSS line count of 249
+src/Login.java:125:	The method initialize() has an NPath complexity of 525859776
+src/Login.java:132:	Local variable 'TEST_PSW_PANEL' could be declared final
+src/Login.java:132:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TEST_PSW_PANEL' is not final.
+src/Login.java:132:	Variables should start with a lowercase character, 'TEST_PSW_PANEL' starts with uppercase character.
+src/Login.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:137:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:140:	Local variable 'NEW_PRODUCT_PANEL' could be declared final
+src/Login.java:140:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'NEW_PRODUCT_PANEL' is not final.
+src/Login.java:140:	Variables should start with a lowercase character, 'NEW_PRODUCT_PANEL' starts with uppercase character.
+src/Login.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:152:	Local variable 'lblNewLabel' could be declared final
+src/Login.java:155:	The String literal "Tahoma" appears 21 times in this file; the first occurrence is on line 155
+src/Login.java:171:	Local variable 'button' could be declared final
+src/Login.java:175:	Parameter 'arg0' is not assigned and could be declared final
+src/Login.java:175:	publicMethodCommentRequirement Required
+src/Login.java:178:	Local variable 'query' could be declared final
+src/Login.java:179:	Local variable 'pst' could be declared final
+src/Login.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:183:	Avoid variables with short names like rs
+src/Login.java:183:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:183:	Local variable 'rs' could be declared final
+src/Login.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:184:	Found 'DD'-anomaly for variable 'count' (lines '184'-'186').
+src/Login.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:186:	Found 'DD'-anomaly for variable 'count' (lines '186'-'186').
+src/Login.java:188:	Avoid using Literals in Conditional Statements
+src/Login.java:196:	Avoid using Literals in Conditional Statements
+src/Login.java:201:	Avoid using Literals in Conditional Statements
+src/Login.java:206:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:206:	Avoid empty catch blocks
+src/Login.java:206:	Avoid empty catch blocks
+src/Login.java:241:	Parameter 'arg0' is not assigned and could be declared final
+src/Login.java:241:	publicMethodCommentRequirement Required
+src/Login.java:250:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:250:	Avoid empty catch blocks
+src/Login.java:250:	Avoid empty catch blocks
+src/Login.java:261:	Avoid variables with short names like e
+src/Login.java:261:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:261:	publicMethodCommentRequirement Required
+src/Login.java:273:	Avoid variables with short names like e
+src/Login.java:273:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:273:	publicMethodCommentRequirement Required
+src/Login.java:287:	Avoid variables with short names like e
+src/Login.java:287:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:287:	publicMethodCommentRequirement Required
+src/Login.java:292:	Local variable 'query' could be declared final
+src/Login.java:293:	Local variable 'pst' could be declared final
+src/Login.java:294:	Avoid variables with short names like rs
+src/Login.java:294:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:294:	Local variable 'rs' could be declared final
+src/Login.java:294:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:298:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:299:	Avoid unused local variables such as 'kodikos'.
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DD'-anomaly for variable 'kodikos' (lines '299'-'299').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Found 'DU'-anomaly for variable 'kodikos' (lines '299'-'904').
+src/Login.java:299:	Local variable 'kodikos' could be declared final
+src/Login.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:300:	Avoid unused local variables such as 'perigrafi'.
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DD'-anomaly for variable 'perigrafi' (lines '300'-'300').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Found 'DU'-anomaly for variable 'perigrafi' (lines '300'-'904').
+src/Login.java:300:	Local variable 'perigrafi' could be declared final
+src/Login.java:300:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:301:	Avoid unused local variables such as 'upoloipo'.
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'301').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DD'-anomaly for variable 'upoloipo' (lines '301'-'449').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Found 'DU'-anomaly for variable 'upoloipo' (lines '301'-'904').
+src/Login.java:301:	Local variable 'upoloipo' could be declared final
+src/Login.java:301:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:301:	The String literal "upoloipo" appears 4 times in this file; the first occurrence is on line 301
+src/Login.java:309:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:309:	Avoid empty catch blocks
+src/Login.java:309:	Avoid empty catch blocks
+src/Login.java:319:	Avoid variables with short names like e
+src/Login.java:319:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:319:	publicMethodCommentRequirement Required
+src/Login.java:338:	Avoid variables with short names like e
+src/Login.java:338:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:338:	publicMethodCommentRequirement Required
+src/Login.java:348:	Local variable 'label_2' could be declared final
+src/Login.java:348:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_2' is not final.
+src/Login.java:373:	Avoid excessively long variable names like btnNewProductButton
+src/Login.java:373:	Local variable 'btnNewProductButton' could be declared final
+src/Login.java:375:	Avoid variables with short names like e
+src/Login.java:375:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:375:	publicMethodCommentRequirement Required
+src/Login.java:377:	Local variable 'query' could be declared final
+src/Login.java:378:	Local variable 'pst' could be declared final
+src/Login.java:379:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:380:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:383:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:383:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:383:	Useless parentheses.
+src/Login.java:383:	Useless parentheses.
+src/Login.java:385:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:387:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:391:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:400:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:410:	The String literal "HOME" appears 4 times in this file; the first occurrence is on line 410
+src/Login.java:412:	Avoid variables with short names like e
+src/Login.java:412:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:412:	publicMethodCommentRequirement Required
+src/Login.java:440:	Avoid variables with short names like e
+src/Login.java:440:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:440:	publicMethodCommentRequirement Required
+src/Login.java:442:	Local variable 'query' could be declared final
+src/Login.java:443:	Local variable 'pst' could be declared final
+src/Login.java:444:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:445:	Avoid variables with short names like rs
+src/Login.java:445:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:445:	Local variable 'rs' could be declared final
+src/Login.java:445:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:447:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:449:	Local variable 'upoloipo' could be declared final
+src/Login.java:449:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:454:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:454:	Avoid empty catch blocks
+src/Login.java:454:	Avoid empty catch blocks
+src/Login.java:462:	Local variable 'btnHome_1' could be declared final
+src/Login.java:462:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btnHome_1' is not final.
+src/Login.java:464:	Avoid variables with short names like e
+src/Login.java:464:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:464:	publicMethodCommentRequirement Required
+src/Login.java:485:	Avoid variables with short names like e
+src/Login.java:485:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:485:	publicMethodCommentRequirement Required
+src/Login.java:522:	Avoid variables with short names like e
+src/Login.java:522:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:522:	publicMethodCommentRequirement Required
+src/Login.java:525:	Local variable 'query' could be declared final
+src/Login.java:526:	Local variable 'pst' could be declared final
+src/Login.java:527:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:528:	Avoid variables with short names like rs
+src/Login.java:528:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:528:	Local variable 'rs' could be declared final
+src/Login.java:528:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:530:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:532:	Local variable 'palioupoloipo' could be declared final
+src/Login.java:532:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:533:	System.out.println is used
+src/Login.java:534:	Local variable 'upoloipo2' could be declared final
+src/Login.java:535:	Local variable 'upoloipo22' could be declared final
+src/Login.java:538:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:541:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:541:	Avoid empty catch blocks
+src/Login.java:541:	Avoid empty catch blocks
+src/Login.java:545:	Local variable 'query2' could be declared final
+src/Login.java:546:	Local variable 'pst2' could be declared final
+src/Login.java:547:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:548:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:550:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:556:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:556:	Avoid empty catch blocks
+src/Login.java:556:	Avoid empty catch blocks
+src/Login.java:562:	Local variable 'query4' could be declared final
+src/Login.java:563:	Local variable 'pst4' could be declared final
+src/Login.java:564:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:565:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:566:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:568:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:574:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:574:	Avoid empty catch blocks
+src/Login.java:574:	Avoid empty catch blocks
+src/Login.java:585:	Avoid variables with short names like e
+src/Login.java:585:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:585:	publicMethodCommentRequirement Required
+src/Login.java:588:	Local variable 'query' could be declared final
+src/Login.java:589:	Local variable 'pst' could be declared final
+src/Login.java:590:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:591:	Avoid variables with short names like rs
+src/Login.java:591:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:591:	Local variable 'rs' could be declared final
+src/Login.java:591:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:593:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:595:	Local variable 'palioupoloipo' could be declared final
+src/Login.java:595:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:596:	System.out.println is used
+src/Login.java:597:	Local variable 'upoloipo2' could be declared final
+src/Login.java:598:	Local variable 'upoloipo22' could be declared final
+src/Login.java:600:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:602:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:602:	Avoid empty catch blocks
+src/Login.java:602:	Avoid empty catch blocks
+src/Login.java:606:	Local variable 'query2' could be declared final
+src/Login.java:607:	Local variable 'pst2' could be declared final
+src/Login.java:608:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:609:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:611:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:616:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:616:	Avoid empty catch blocks
+src/Login.java:616:	Avoid empty catch blocks
+src/Login.java:627:	Local variable 'query4' could be declared final
+src/Login.java:628:	Local variable 'pst4' could be declared final
+src/Login.java:629:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:630:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:631:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:633:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:639:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:639:	Avoid empty catch blocks
+src/Login.java:639:	Avoid empty catch blocks
+src/Login.java:651:	Avoid variables with short names like k
+src/Login.java:651:	Parameter 'k' is not assigned and could be declared final
+src/Login.java:651:	publicMethodCommentRequirement Required
+src/Login.java:673:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:690:	Local variable 'btnSearch' could be declared final
+src/Login.java:692:	Parameter 'arg0' is not assigned and could be declared final
+src/Login.java:692:	publicMethodCommentRequirement Required
+src/Login.java:694:	Local variable 'query' could be declared final
+src/Login.java:695:	Local variable 'pst' could be declared final
+src/Login.java:696:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:697:	Avoid variables with short names like rs
+src/Login.java:697:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:697:	Local variable 'rs' could be declared final
+src/Login.java:697:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:700:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:700:	Avoid empty catch blocks
+src/Login.java:700:	Avoid empty catch blocks
+src/Login.java:711:	Avoid variables with short names like e
+src/Login.java:711:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:711:	publicMethodCommentRequirement Required
+src/Login.java:725:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:755:	Avoid variables with short names like e
+src/Login.java:755:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:755:	The method 'actionPerformed' has a Cyclomatic Complexity of 17.
+src/Login.java:755:	publicMethodCommentRequirement Required
+src/Login.java:756:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:756:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:756:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:758:	Local variable 'query' could be declared final
+src/Login.java:759:	Local variable 'pst' could be declared final
+src/Login.java:760:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:761:	Avoid variables with short names like rs
+src/Login.java:761:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:761:	Local variable 'rs' could be declared final
+src/Login.java:761:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:764:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:764:	Avoid empty catch blocks
+src/Login.java:764:	Avoid empty catch blocks
+src/Login.java:767:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:767:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:767:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:769:	Local variable 'query' could be declared final
+src/Login.java:770:	Local variable 'pst' could be declared final
+src/Login.java:771:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:772:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:773:	Avoid variables with short names like rs
+src/Login.java:773:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:773:	Local variable 'rs' could be declared final
+src/Login.java:773:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:776:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:776:	Avoid empty catch blocks
+src/Login.java:776:	Avoid empty catch blocks
+src/Login.java:780:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:780:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:780:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:782:	Local variable 'query' could be declared final
+src/Login.java:783:	Local variable 'pst' could be declared final
+src/Login.java:784:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:785:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:786:	Avoid variables with short names like rs
+src/Login.java:786:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:786:	Local variable 'rs' could be declared final
+src/Login.java:786:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:789:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:789:	Avoid empty catch blocks
+src/Login.java:789:	Avoid empty catch blocks
+src/Login.java:792:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:792:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:792:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:794:	Local variable 'query' could be declared final
+src/Login.java:795:	Local variable 'pst' could be declared final
+src/Login.java:796:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:797:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:798:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:799:	System.out.println is used
+src/Login.java:800:	Avoid variables with short names like rs
+src/Login.java:800:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:800:	Local variable 'rs' could be declared final
+src/Login.java:800:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:804:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:804:	Avoid empty catch blocks
+src/Login.java:804:	Avoid empty catch blocks
+src/Login.java:815:	Avoid variables with short names like e
+src/Login.java:815:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:815:	The method 'actionPerformed' has a Cyclomatic Complexity of 17.
+src/Login.java:815:	publicMethodCommentRequirement Required
+src/Login.java:816:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:816:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:816:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:818:	Local variable 'query' could be declared final
+src/Login.java:819:	Local variable 'pst' could be declared final
+src/Login.java:820:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:821:	Avoid variables with short names like rs
+src/Login.java:821:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:821:	Local variable 'rs' could be declared final
+src/Login.java:821:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:824:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:824:	Avoid empty catch blocks
+src/Login.java:824:	Avoid empty catch blocks
+src/Login.java:827:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:827:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:827:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:829:	Local variable 'query' could be declared final
+src/Login.java:830:	Local variable 'pst' could be declared final
+src/Login.java:831:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:832:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:833:	Avoid variables with short names like rs
+src/Login.java:833:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:833:	Local variable 'rs' could be declared final
+src/Login.java:833:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:836:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:836:	Avoid empty catch blocks
+src/Login.java:836:	Avoid empty catch blocks
+src/Login.java:840:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:840:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:840:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:842:	Local variable 'query' could be declared final
+src/Login.java:843:	Local variable 'pst' could be declared final
+src/Login.java:844:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:845:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:846:	Avoid variables with short names like rs
+src/Login.java:846:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:846:	Local variable 'rs' could be declared final
+src/Login.java:846:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:849:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:849:	Avoid empty catch blocks
+src/Login.java:849:	Avoid empty catch blocks
+src/Login.java:852:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:852:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:852:	Potential violation of Law of Demeter (method chain calls)
+src/Login.java:854:	Local variable 'query' could be declared final
+src/Login.java:855:	Local variable 'pst' could be declared final
+src/Login.java:856:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:857:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:858:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:859:	System.out.println is used
+src/Login.java:860:	Avoid variables with short names like rs
+src/Login.java:860:	Ensure that resources like this ResultSet object are closed after use
+src/Login.java:860:	Local variable 'rs' could be declared final
+src/Login.java:860:	Potential violation of Law of Demeter (object not created locally)
+src/Login.java:864:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Login.java:864:	Avoid empty catch blocks
+src/Login.java:864:	Avoid empty catch blocks
+src/Login.java:889:	Avoid variables with short names like e
+src/Login.java:889:	Parameter 'e' is not assigned and could be declared final
+src/Login.java:889:	publicMethodCommentRequirement Required
